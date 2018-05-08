@@ -60,6 +60,7 @@ public class BindViewProcessor extends AbstractProcessor {
         types.add(BindView.class.getCanonicalName());
         types.add(OnClick.class.getCanonicalName());
         types.add(LongClick.class.getCanonicalName());
+        types.add(ContentView.class.getCanonicalName());
         return types;
     }
 
